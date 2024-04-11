@@ -1,0 +1,50 @@
+.card {
+    padding: 15px 25px;
+    box-shadow: 0px 0px 45.9px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: background 0.3s ease-in, box-shadow 0.3s ease-in;
+    max-width: 339px;
+    background: rgba(255, 255, 255, 0.01);
+    backdrop-filter: blur(8px);
+
+    &:hover {
+        background-color: #fff;
+    }
+
+    &--selected {
+        box-shadow: 0px 0px 45.9px 0px rgba(255, 47, 84, 1);
+    }
+
+    @media (max-width: 1400px) {
+        max-width: fit-content;
+    }
+
+    @media (max-width: 420px) {
+        padding: 15px 20px;
+    }
+}
+
+.card__title {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 38.73px;
+    margin: 0;
+    margin-bottom: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    @media (max-width: 420px) {
+        font-size: 26px;
+        margin-bottom: 10px;
+    }
+}
+
+.card__text {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.52px;
+    margin: 0;
+}
