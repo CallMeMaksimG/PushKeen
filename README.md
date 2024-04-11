@@ -1,3 +1,3 @@
 Тестовое задание
 
-[Перейти](https://callmemaksimg.github.io/pushkeen)
+[Перейти](https://callmemaksimg.github.io/PushKeen)
