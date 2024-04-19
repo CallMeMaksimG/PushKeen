@@ -48,3 +48,9 @@ body {
     transform: rotate(30deg);
     z-index: -1;
 }
+
+@-moz-document url-prefix() {
+        .rectangle {
+            filter: blur(8px);
+        }
+    }

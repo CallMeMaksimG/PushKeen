@@ -34,6 +34,12 @@
     }
 }
 
+@-moz-document url-prefix() {
+        .card {
+            backdrop-filter: none;
+        }
+    }
+
 .card__title {
     font-size: 32px;
     font-weight: 400;
